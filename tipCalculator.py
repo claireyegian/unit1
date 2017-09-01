@@ -2,6 +2,7 @@
 #8/31/17
 #tipCalculator.py - calculates tips
 
-price = int(input('Price of meal (in dollars): '))
+price = float(input('Price of meal (in dollars): '))
 tip = int(input('% to tip: '))
-print('You should tip', price*(tip/100))
+total = price*(tip/100)
+print('You should tip', round(total,2))
