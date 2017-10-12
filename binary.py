@@ -7,5 +7,6 @@ binary = int(input('Enter an eight-digit binary number: '))
 one = (binary%10)
 two = ((binary//100)%10)*2
 three = ((binary//1000)%10)*4
+four = ((binary/10000)%10)*8
 
-print(one+two+three)
+print(one+two+three+four)
